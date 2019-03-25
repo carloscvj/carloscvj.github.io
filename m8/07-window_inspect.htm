@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h2> Object inspector </h2>
+
+Introduzca una propiedad de window: <br>
+<input type="text" size="40" id="prop"><p>
+<button onClick="inspeccionar()">inspeccionar</button>
+
+    <!-- tabla con propiedades de screen -->
+<table id="tabla"></table> 
+
+<script>
+function inspeccionar (){
+  var obj = window[document.getElementById("prop").value];
+  var tabla = document.getElementById("tabla");
+  tabla.innerHTML = "";
+  
+  for (var i in obj) {  //cada iteración genera una fila de la tabla
+    tabla.innerHTML += "<tr><td>" + i + "</td><td> = "+ obj[i]+"</td></tr>";
+  }
+}
+</script>
+</body>
+</html>
+

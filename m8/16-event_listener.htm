@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html><head><title>Evento</title><meta charset="UTF-8">
+<style> body{text-align:center;} </style>
+
+  <script type="text/javascript"> 
+
+    function inicializar() { 
+       var img = document.getElementById('i1');
+
+       img.addEventListener("dblclick", (event) => img.src='lamp_off.jpg');
+       img.addEventListener("click",    (event) => img.src='lamp_on.jpg');
+    }
+  </script>
+</head>   <!-- El arbol DOM está ya construido al ocurrir onload -->
+<body onload="inicializar()">
+  <h1>Eventos</h1>
+  <img src="lamp_off.jpg" id="i1"/>
+</body></html>
+

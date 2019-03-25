@@ -1,0 +1,126 @@
+
+<html>
+<head><title>MVC Example</title><meta charset="utf-8"></head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" > </script>
+<script type="text/javascript">
+
+    // MODEL
+
+const initial_quizzes = JSON.stringify([ 
+        { question: "Capital of Italy",    answer: "Rome" },
+        { question: "Capital of France",   answer: "Paris" },
+        { question: "Capital of Spain",    answer: "Madrid" },
+        { question: "Capital of Portugal", answer: "Lisbon" }
+    ]);
+
+localStorage.quizzes = localStorage.quizzes || initial_quizzes;
+
+    // VIEWs
+
+const index = (quizzes) => quizzes.reduce((ac, quiz, id) => 
+    ac +=`<div><span class="play"   quizid="${id}">${quiz.question}</span>
+             <button class="edit"   quizid="${id}">Edit</button>
+             <button class="delete" quizid="${id}">Delete</button>
+        </div>\n`,
+        ""
+    )
+  + `<button class="new">  New Quiz</button>
+     <button class="reset">Reset Quizzes</button>`;
+
+const play = (id, question) =>
+`   ${question}:
+    <p>
+        <input  type="text" id="answer" placeholder="Answer" >
+        <button class="check" quizid="${id}">Check</button>
+        <p>
+            <div id='msg'></div>
+        </p>
+    </p>
+    <button class="index">Go back</button>
+`;
+
+const quizForm = (msg, event, id, question, answer) =>
+`   ${msg}:
+    <p>
+        <input  type="text" id="question" value="${question}" placeholder="Question" >
+        <input  type="text" id="answer"   value="${answer}"   placeholder="Answer" >
+        <button class="${event}" quizid="${id}">${event}</button>
+    </p>
+    <button class="index">Go back</button>
+`;
+
+   // CONTROLLERs
+
+const indexController = () => {
+    let quizzes = JSON.parse(localStorage.quizzes);
+    $('#main').html(index(quizzes));
+};
+
+const playController = (id) => {
+    let { question } = JSON.parse(localStorage.quizzes)[id];
+    $('#main').html(play(id, question));
+};
+
+const checkController = (id) => {
+    let {question, answer } = JSON.parse(localStorage.quizzes)[id];
+    let my_answer = $('#answer').val();
+    let response = (my_answer===answer) ?
+          `Yes, "${my_answer}" is the ${question}`
+        : `No, "${my_answer}" is not the ${question}`;
+    $('#msg').html(response);
+};
+
+const editController = (id) => {
+    let {question, answer} = JSON.parse(localStorage.quizzes)[id];
+    $('#main').html(quizForm('Edit Quiz', 'update', id, question, answer));
+};
+
+const updateController = (id) => {
+    let quizzes = JSON.parse(localStorage.quizzes);
+    quizzes[id].question = $('#question').val();
+    quizzes[id].answer = $('#answer').val();
+    localStorage.quizzes = JSON.stringify(quizzes);
+    indexController();
+};
+
+const newController = () => {
+    // ..... introducir código
+};
+
+const createController = () => {
+    // ..... introducir código
+};
+
+const deleteController = (id) => {
+    // ..... introducir código
+};
+
+const resetController = (id) => {
+    // ..... introducir código
+};
+
+
+   // ROUTER
+
+const eventsController = ()=> {
+  $(document).on('click','.index',  () => indexController());
+  $(document).on('click','.play',   (e)=> playController(Number($(e.target).attr("quizid"))));
+  $(document).on('click','.check',  (e)=> checkController(Number($(e.target).attr("quizid"))));
+  $(document).on('click','.edit',   (e)=> editController(Number($(e.target).attr("quizid"))));
+  $(document).on('click','.update', (e)=> updateController(Number($(e.target).attr("quizid"))));
+
+    // ..... añadir manejadores de eventos new, create, delete y reset
+}
+
+
+$(function(){
+  indexController();
+  eventsController();
+});
+</script>
+</head>
+<body>
+    <h1>MVC: Quizzes</h1>
+    <div id="main"><div>
+</body>
+</html>

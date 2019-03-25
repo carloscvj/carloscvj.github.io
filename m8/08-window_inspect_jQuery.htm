@@ -1,0 +1,32 @@
+
+<!DOCTYPE html><html><head><title>DOM</title><meta charset="UTF-8">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+
+<script type="text/javascript">
+  $(function() {
+    $("#b1").on("click", 
+      function() {
+        var obj = window[$("#prop").val()];
+        var tabla = $("#tabla");
+        tabla.html("");
+  
+        for (var i in obj) {  //cada iteración genera una fila de la tabla
+           tabla.append("<tr><td>" + i + "</td><td> = "+ obj[i]+"</td></tr>");
+        }
+      }
+    );
+  });
+</script>
+</head><body>
+
+<h2> Object inspector </h2>
+
+Introduzca una propiedad de window: <br>
+<input type="text" size="40" id="prop"><p>
+<button id="b1">inspeccionar</button>
+
+    <!-- tabla con propiedades de screen -->
+<table id="tabla"></table> 
+
+</body></html>
+

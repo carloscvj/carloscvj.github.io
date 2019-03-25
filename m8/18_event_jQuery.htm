@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html><head><title>Evento jQuery</title><meta charset="UTF-8">
+<style> body{text-align:center;} </style>
+
+<script type="text/javascript" src="jquery-3.3.1.min.js" > </script>
+<script type="text/javascript">
+  $(function(){ 
+    var img = $('#i1');
+
+    img.on('dblclick', (event) => img.attr('src', 'lamp_off.jpg'));
+    img.on('click',    (event) => img.attr('src', 'lamp_on.jpg'));
+  });
+</script>
+</head>
+<body>
+  <h1>Eventos</h1>
+  <img src="lamp_off.jpg" id="i1">
+</body>
+</html>
+
