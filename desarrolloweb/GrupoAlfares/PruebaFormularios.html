@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        label, input {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" autocomplete="off">
+            <label for="fechaNacimiento">Fecha de nacimiento</label>
+            <input type="date" id="fechaNacimiento">
+            <label for="password">Escribe tu contraseña</label>
+            <input type="password" id="password">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono">
+            <label for="sueldo">Dime tu sueldo</label>
+            <input type="number" id="sueldo">
+            <label for="opinion">Dime lo que opinas</label>
+            <textarea name="opinion" id="opinion" cols="30" rows="10"></textarea>
+            <label for="paises">País</label>
+            <select name="paises" id="paises">
+                <option value="espania">España</option>
+                <option value="francia">Francia</option>
+                <option value="portugal">Portugal</option>
+            </select>
+            <legend>selecciona tu sexo</legend>
+            <label for="sexo">Hombre</label><input type="radio" name="sexo" value="hombre">
+            <label for="sexo">Mujer</label><input type="radio" name="sexo" value="mujer">
+            <label for="sexo">Otros</label><input type="radio" name="sexo" value="otros">
+        </fieldset>
+        <fieldset>
+            <legend>Otros datos</legend>
+            <label for="aficiones">Aficiones</label>
+            <input type="checkbox" value="aficiones" value="lectura">Lectura
+            <input type="checkbox" value="aficiones" value="cine">Cine
+            <input type="checkbox" value="aficiones" value="viajar">Viajar
+            <label for="comer">Dinos tu receta favorita y su preparación</label>
+            <textarea name="comer" id="comer" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

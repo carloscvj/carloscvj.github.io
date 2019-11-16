@@ -1,0 +1,145 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 1100px;
+    margin:5px auto;
+    background-color: aquamarine;
+    color: blue;
+    font-family: 'Yeon Sung', cursive;
+    overflow: hidden;
+    box-shadow: 5px 4px grey;
+    border-radius: 20px;
+}
+
+header {
+    float: left;
+    width: 1100px;
+}
+.logo{
+    float: left;
+    width: 100;
+    padding:5px;
+}
+nav {
+    float:left;
+    width:900px;
+    padding: 10px;
+    font-size:28px;
+}
+nav ul {
+    list-style:none;
+}
+nav li {
+    display:inline-block;    
+    width:210px;
+    height:30px;
+    text-align: center;    
+}
+nav a {
+    display:inline-block;
+    width:210px;
+    height:30px;
+    text-decoration:none;
+    color: blue;
+}
+nav a:hover {
+    background-color: darkorchid;
+    color: yellow;
+}
+.bunner{
+    float: left;
+    width: 1100px;
+    height: 250px;
+}
+.pieBunner{
+    float: left;
+    width: 1100px;
+    background-color: blue;
+    color: aquamarine;
+}
+.pieBunner h1{
+    float: left;
+    width: 800px;
+    padding-left: 5px;
+    font-size:28px;
+}
+.pieBunner p{
+    float: left;
+    width: 85px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:20px;
+}
+.pieBunner a{
+    color: aquamarine;
+    text-decoration:none;
+}
+.imgIzquierda{
+    float:left;
+    padding: 5px;
+    width: 25px;
+    height: 20px;
+ }
+ main{
+     float: left;
+     width: 1100px;
+     border-bottom: 10px solid blue;
+ }
+section article{
+    float: left;
+    width: 790px;
+}
+section article h1{
+    float:left;
+    margin-left: 15px;
+}
+section article p{
+    float: left;
+    padding: 5px;
+}
+aside {
+    float: left;
+    width: 285px;
+    background-color: darkorchid;
+    color: yellow;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+aside .foto, aside .rrss{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    float: left;
+    width: 1100px;
+    border-bottom: 10px solid blue;    
+}
+footer article{
+    float: left;
+    width: 353px;
+    height: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding-left: 5px;
+    background-color: darkorchid;
+    color: yellow;
+    border-radius: 10px;
+}
+footer ul {
+    float: left;
+    margin-left: 25px;
+    width: 110px;    
+}

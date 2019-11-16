@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Un en HTML5</title>
+<style>
+
+/*.contenedor {
+	background-color:lightblue;
+}*/
+
+#contenedor {
+	background-color:lightblue;
+	width:1100px;
+	height:800px;
+}
+
+header {
+	background-color:lightred;
+}
+
+nav {
+	background-color:lightgreen;
+}
+
+nav li {
+	list-style:none;
+	display:inline-block;
+	width:150px;
+	height:20px;
+	margin-left:20px;
+	text-align:center;
+	padding:10px;
+}
+
+nav li:hover {
+	background-color:green;	
+	color:white;
+}
+
+a {
+	text-decoration:none;
+	color:brown;
+}
+
+a:hover {
+	background-color:green;	
+	color:white;
+}
+
+.economia {
+	background-color:pink;
+	width:400px;
+	height:300px;
+	float:left;
+}
+.politica {
+	background-color:yellow;
+	width:400px;
+	height:300px;
+	float:left;
+}
+
+.economia:hover {
+	background-color:yellow;
+}
+
+.politica:hover {
+	background-color:pink;
+}
+
+
+aside {
+	background-color:magenta;
+	width:200px;
+	height:500px;
+	float:left;
+}
+
+footer {
+	background-color:orange;
+	width:900px;
+	height:75px;
+	clear:both;
+}
+
+</style>
+</head>
+<body>
+<div id="contenedor">
+<header>
+<div class="logo">
+   <img src="Logo.jpg" width="200" height="100">
+</div>
+<nav>
+   <ul>
+	<li><a href="#">Inicio</a></li>
+	<li><a href="#">¿Quiénes somos?</a></li>
+	<li><a href="#">¿Dónde estamos?</a></li>
+	<li><a href="#">Contato</a></li>
+   </ul>
+</nav>
+</header>
+<main>
+<section class="economia">
+   <article>
+	<h1>Notica 1 de economía</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+   </article>
+</section>
+
+<section class="politica">
+   <article>
+	<h1>Notica 1 de política</h1>
+	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+   </article>
+</section>
+
+<aside>
+<h2>Mis artículos preferidos</h2>
+<ol>
+   <li>Economía barata</li>
+   <li>Políticos basura</li>
+</ol>
+</aside>
+
+</main>
+
+<footer>
+   <p>Desarrollo web Fuenlabrada</p>
+</footer>
+
+</div>
+</body>
+</html>

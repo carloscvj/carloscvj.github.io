@@ -1,0 +1,200 @@
+.contenedor{
+    width: 1100px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 30px;
+}
+header{
+    float: left;
+    width: 1100px;
+    height: 80px;
+    background-color: #666666;
+    color: gold;
+}
+.logo{
+    float: left;
+}
+header nav {
+    float: right;
+    width: 300;
+    margin: 20px;
+}
+ul{
+    list-style: none;
+}
+header nav li{
+    display:inline-block;
+    width: 120px;
+    text-align: center;
+}
+header nav a{
+    display:inline-block;
+    width: 120px;
+    text-decoration: none;
+    color: gold;
+}
+header nav a:hover{
+    background-color: gold;
+    color: #666666;
+}
+
+main{
+    float: left;
+    width: 1100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+main section {
+    float: left;
+    width: 780px;
+    margin-left: 20px;
+    background-color: #dddddd;
+}
+.bunner{
+    float: left;
+    background-image: url("../img/Bunner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:780px;
+    height:200px;
+}
+.bunner h1 {
+    
+    margin-left: 30px;
+    /*background-color: rgba(102,102,102, 0.5);
+    border-radius: 10px;*/
+    font-family: 'Rye', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: gold;
+
+
+    text-shadow: 1px 3px 0 #444444, 1px 13px 5px #666666;    
+}
+main section article{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.partida{
+    float: left;
+    width: 380px;
+}
+main section a{
+    display:inline-block;
+    width: 250px;
+    text-decoration: none;
+    color: black;
+}
+main section a:hover{
+    background-color: black;
+    color: white;
+}
+form{
+    float: left;
+}
+label{
+    display: inline-block;
+    padding: 5px;
+    text-align: right;
+}
+.contacto{
+    width:480px;
+}
+.contacto label{
+    width:120px;
+}
+.contacto input{
+    width: 320px;
+}
+.bloque {
+    display: block;
+    float: left;
+}
+.contacto textarea {
+    display: block;
+    float: left;
+    width: 320px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contacto .boton {
+    margin-left: 130px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+.promociones textarea {
+    width: 320px;
+    height: 150px;
+}
+
+.imgIzquierda{
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+aside {
+    float: left;
+    width: 260px;
+    margin-left: 20px;
+    background-color: #dddddd;
+}
+aside nav {
+    float: left;
+    width: 260px;
+    height: 200px;
+    background-color: #666666;
+}
+aside nav ul {
+    margin-top: 60px;
+    padding-left: 20px;
+}
+aside nav li{
+    display:inline-block;
+    width: 200px;
+}
+aside nav a{
+    display:inline-block;
+    width: 200px;
+    text-decoration: none;
+    color: gold;
+}
+aside nav a:hover{
+    background-color: gold;
+    color: black;
+}
+aside article {
+    float: left;
+    width: 260px;
+    margin-top: 20px;
+    background-color: #cccccc;
+    text-align: justify;
+}
+.imgArriba{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+aside p{
+    margin-left: 5px;
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+footer{
+    clear: both;
+    width: 1100px;
+    height: 20px;
+    background-color: #666666;
+    color: gold;
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.contenedor {
+    margin:0px auto;
+    font-family: 'Source Code Pro', monospace;
+    width:1200px;
+    background-color: #eeeeee;
+}
+header {
+    float:left;
+    background-image: url("../img/Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:1200px;
+    height:200px;
+}
+header h1 {
+    float:left;
+    margin-top:40px;
+    margin-left:270px;
+    background-color: rgba(35, 36, 2, 0.2);
+    color:rgb(235, 229, 203);
+    font-size:80px;
+    width:680px;
+    border-radius: 100px;
+    text-align:center;
+}
+nav {
+    background-color: lightskyblue;
+    float:left;
+    width:300px;
+    padding: 10px;
+    font-size:18px;
+}
+nav ul {
+    list-style:none;
+}
+nav a {
+    display:inline-block;
+    width:280px;
+	height:25px;
+    text-decoration:none;
+    border-bottom:1px solid black;
+}
+
+nav a:hover {
+	background-color:black;	
+	color:white;
+}
+main {
+    background-color: azure;
+    float:left;
+    width:800px;
+}
+main section {
+    margin:50px;
+}
+main h1 {
+    margin:20px;
+}
+main h2 {
+    font-size: 15px;
+}
+main h3 {
+    font-size: 15px;
+    text-align:center;
+}
+.reverso{
+	background-color:grey;	
+	color:white;
+}
+.letraFina{
+    font-size: 10px;
+}
+main article {
+    margin:20px;
+}
+.imgDerecha{
+    float:right;
+    margin-left: 5px;
+ }
+.imgIzquierda{
+    float:left;
+    margin-right: 5px;
+ }
+ .icoIzquierda{
+    float: left;
+ }
+footer {
+	background-color:gray;
+	color:white;
+	width:1200px;
+	height:20px;
+	clear:both;
+	text-align:center;
+}
