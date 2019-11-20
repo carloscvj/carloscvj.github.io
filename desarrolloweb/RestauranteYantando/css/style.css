@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: chocolate;
 }
@@ -9,7 +13,7 @@ h2 {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 ul {
@@ -29,11 +33,15 @@ header {
     float: left;
     width: 90%;
     margin-left: 5%;
+    background-color: chocolate;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 main {
-    float: left;
     width: 90%;
+    height: 3800px;
     margin-left: 5%;
     background-color: beige;
 }
@@ -46,23 +54,39 @@ footer {
 
 .logo {
     float: left;
-    width: 25%;
-    background-color: chartreuse;
+    width: 312px;
+    margin: 20px;
 }
 
 .logoImagen {
-    background-color: cornsilk;
+    float: left;
+    width: 100px;
+    height: 83px;
+    padding: 2px;
 }
 
 .logoTexto {
+    float: left;
+    width: 208px;
+    position: relative;
+    top: 0px;
+    left: -40px;
 }
-
+.logoTexto p{
+    height: 0px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    left: 0px;
+}
 header nav {
     float: right;
-    width: 65%;
+    width: 820px;
+    margin-top: 35px;
+    margin-right: 35px;
 }
 
 header nav a {
     display: inline-block;
-    width: 160px;
+    width: 200px;
 }
