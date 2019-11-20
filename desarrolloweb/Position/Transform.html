@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .caja1{
+            width:200px;
+            height: 200px;
+            background-color: blueviolet;
+            color: yellow;
+            margin-bottom: 150px;
+            transition: all 2s ease-in;
+        }
+        .caja2{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            color: blueviolet;
+            transition:all 2s ease-in-out;
+        }
+        .caja1:hover{
+            background-color: green;
+            color:red;
+        }
+        .caja2:hover{
+            transform: rotate(30deg);
+            /*transform: translate(125px,100px);*/
+            transform: scale(1.2, 0.8);
+            background-color: green;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja1"><h1>Caja 1</h1></div>
+    <div class="caja2"><h1>Caja 2</h1></div>
+</body>
+</html>

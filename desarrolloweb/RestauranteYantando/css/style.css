@@ -1,0 +1,68 @@
+body {
+    background-color: chocolate;
+}
+
+h1,
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+}
+
+main {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    background-color: beige;
+}
+
+footer {
+    width: 90%;
+    margin-left: 5%;
+    background-color: burlywood;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    background-color: chartreuse;
+}
+
+.logoImagen {
+    background-color: cornsilk;
+}
+
+.logoTexto {
+}
+
+header nav {
+    float: right;
+    width: 65%;
+}
+
+header nav a {
+    display: inline-block;
+    width: 160px;
+}

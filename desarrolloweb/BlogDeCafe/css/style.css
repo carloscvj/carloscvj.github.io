@@ -1,8 +1,236 @@
-
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
 
 header {
-    background-image: url("../img/Cabecera.png");
+    background-image: url("../img/Cabecera.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     height: 400px;
-    color: white;
+    font-family: 'Chango', cursive;
+    color: limegreen;
+}
+
+.pareja {
+    float: left;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 180px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-shadow: -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px -1px 0 #fff;
+}
+
+nav {
+    float: right;
+    width: 600px;
+    margin-top: 13px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    width: 130px;
+}
+
+a {
+    display: inline-block;
+    width: 130px;
+    color: limegreen;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+
+}
+
+a:hover {
+    background-color: limegreen;
+    color: rgb(58, 48, 48);
+    text-shadow: -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px -1px 0 #fff;
+
+}
+
+header h1 {
+    float: left;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: -3px 1px 0 #000,
+        3px 1px 0 #000,
+        3px -1px 0 #000,
+        -3px -1px 0 #000;
+}
+
+header h2 {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+}
+
+main {
+    padding: 0 auto;
+    width: 60%;
+    margin-left: 20%;
+}
+
+main h1 {
+    font-size: 30px;
+    color: limegreen;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+
+}
+
+.nosotros h1 {
+    text-align: center;
+}
+
+article {
+    width: 100%;
+}
+
+article h1 {
+    font-family: 'Chango', cursive;
+    font-size: 16px;
+    color: rgb(118, 62, 27);
+    text-shadow: none;
+}
+
+.index {
+    float: left;
+    width: 55%;
+}
+
+.nosotros {
+    float: left;
+    width: 100%;
+}
+
+.cursos {
+    float: left;
+    width: 100%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.contacto {
+    float: left;
+    width: 100%;
+    background-image: url("../img/FondoContacto.jpg");
+    
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+
+aside {
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.index article,
+.cursos article {
+    border-bottom: 2px solid brown;
+    margin-bottom: 15px;
+}
+
+.cursos article {
+    height: 370px;
+}
+
+article:last-of-type {
+    border-bottom: none;
+}
+
+.reverso {
+    width: 130px;
+    background-color: rgb(70, 40, 10);
+    color: lightgreen;
+}
+
+.imgIzquierda {
+    float: left;
+    width: 43%;
+}
+
+.imgDerecha {
+    float: right;
+    width: 45%;
+    padding-left: 20px;
+}
+
+form {
+    float: left;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 130px;
+    background-color: rgba(118, 62, 27, 0.7);
+    color: limegreen;
+    border-radius: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    width: 250px;
+}
+
+textarea {
+    width: 250px;
+}
+
+.bloque {
+    display: block;
+    float: left;
+}
+
+.boton {
+    float: right;
+    width: 100px;
+    background-color: rgb(118, 62, 27);
+    font-family: 'Chango', cursive;
+    color: limegreen;
+}
+
+footer {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(118, 62, 27);
+    font-family: 'Chango', cursive;
+    color: limegreen;
 }
