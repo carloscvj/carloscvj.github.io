@@ -1,19 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-color: chocolate;
+    background-color: orange;
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1,
 h2 {
-    font-family: 'Kaushan Script', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-family: 'Dancing Script', cursive;
     font-style: italic;
+    color: orange;
 }
 
 h1 {
     font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 ul {
@@ -31,38 +39,71 @@ a {
 
 header {
     float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: chocolate;
+    width: 98%;
+    padding: 1%;
+    background-color: rgb(128, 0, 0);
     position: sticky;
     top: 0;
     left: 0;
 }
 
 main {
+    float: left;
     width: 90%;
-    height: 3800px;
     margin-left: 5%;
     background-color: beige;
 }
 
+.index {
+    height: 1250px;
+}
+
+.menu {
+    height: 1780px;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.central {
+    height: 640px;
+}
+
+.trio {
+    height: 600px;
+}
+
+.lista {
+    height: 1150px;
+}
+
 footer {
-    width: 90%;
-    margin-left: 5%;
-    background-color: burlywood;
+    float: left;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(128, 0, 0);
+    color: orange;
+    font-size: small;
 }
 
 .logo {
     float: left;
-    width: 312px;
-    margin: 20px;
+    width: 290px;
 }
 
 .logoImagen {
     float: left;
-    width: 100px;
-    height: 83px;
-    padding: 2px;
+    width: 75px;
+    height: 75px;
+}
+
+.logoImagen img {
+    border-radius: 40px;
 }
 
 .logoTexto {
@@ -70,23 +111,135 @@ footer {
     width: 208px;
     position: relative;
     top: 0px;
-    left: -40px;
+    left: -25px;
 }
-.logoTexto p{
+
+.logoTexto p {
     height: 0px;
     text-align: center;
     position: relative;
-    top: -25px;
+    top: -20px;
     left: 0px;
 }
+
 header nav {
     float: right;
-    width: 820px;
-    margin-top: 35px;
-    margin-right: 35px;
+    width: 880px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
-header nav a {
+header p {
+    color: lime;
+    font-size: medium;
+}
+
+header a {
     display: inline-block;
+    width: 210px;
+    color: lime;
+    font-size: small;
+}
+
+header a:hover {
+    border: 2px solid lime;
+}
+
+header a p {
+    font-size: small;
+}
+
+.granImagen {
+    float: left;
+    width: 1100px;
+    padding: 20px;
+}
+
+.horaFeliz {
+    float: left;
     width: 200px;
+    background-color: rgba(128, 0, 0, 0.5);
+    border: 2px solid rgb(128, 0, 0);
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    left: 50px;
+}
+
+/*
+.parriba {
+    float: left;
+    position: relative;
+    top: -70px;
+    left: 0;
+}
+*/
+.trio article {
+    float: left;
+    width: 31%;
+    margin-left: 2%;
+}
+
+.trio p {
+    margin-bottom: 10px;
+}
+
+.reverso {
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(128, 0, 0);
+    color: orange;
+    text-align: center;
+}
+
+footer nav {
+    float: left;
+    width: 60%;
+    margin-left: 40%;
+}
+
+footer a {
+    display: inline-block;
+    width: 60px;
+    color: lime;
+}
+
+.pie {
+    float: left;
+    width: 100%;
+}
+
+.pie1 {
+    float: left;
+    width: 50%;
+}
+
+.pie2 {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+footer a:hover {
+    border: 2px solid lime;
+}
+
+.lista {
+    float: left;
+    width: 100%;
+}
+
+.lista .imgIzquierda {
+    float: left;
+    width: 320px;
+    height: 220px;
+    padding: 10px;
+}
+
+.lista article {
+    float: left;
+    width: 98%;
+    padding: 2%;
 }

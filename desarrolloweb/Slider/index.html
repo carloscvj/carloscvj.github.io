@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <title>Carrusel Básico</title>
+</head>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <h4>1 Uno</h4>
+        </div>
+        <div class="item">
+            <h4>2 Dos</h4>
+        </div>
+        <div class="item">
+            <h4>3 Tres</h4>
+        </div>
+        <div class="item">
+            <h4>4 Cuatro</h4>
+        </div>
+        <div class="item">
+            <h4>5 Cinco</h4>
+        </div>
+        <div class="item">
+            <h4>6 Seis</h4>
+        </div>
+        <div class="item">
+            <h4>7 Siete</h4>
+        </div>
+        <div class="item">
+            <h4>8 Ocho</h4>
+        </div>
+        <div class="item">
+            <h4>9 Nueve</h4>
+        </div>
+        <div class="item">
+            <h4>10 Diez</h4>
+        </div>
+        <div class="item">
+            <h4>11 Once</h4>
+        </div>
+        <div class="item">
+            <h4>12 Doce</h4>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
