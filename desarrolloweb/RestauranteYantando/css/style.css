@@ -1,10 +1,16 @@
+
+
+
+/* -------------------------------------------------- GLOBALES -------------------------------------------- */
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: orange;
+    /*background-color: orange;*/
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -37,6 +43,8 @@ a {
     text-decoration: none;
 }
 
+/* -------------------------------------------------- LA CABECERA -------------------------------------------- */
+
 header {
     float: left;
     width: 98%;
@@ -47,53 +55,9 @@ header {
     left: 0;
 }
 
-main {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: beige;
-}
-
-.index {
-    height: 1250px;
-}
-
-.menu {
-    height: 1780px;
-}
-
-section {
-    float: left;
-    width: 100%;
-}
-
-.central {
-    height: 640px;
-}
-
-.trio {
-    height: 600px;
-}
-
-.lista {
-    height: 1150px;
-}
-
-footer {
-    float: left;
-    width: 98%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background-color: rgb(128, 0, 0);
-    color: orange;
-    font-size: small;
-}
-
 .logo {
     float: left;
-    width: 290px;
+    width: 30%;
 }
 
 .logoImagen {
@@ -124,11 +88,12 @@ footer {
 
 header nav {
     float: right;
-    width: 880px;
+    width: 69%;
     margin-top: 10px;
-    margin-right: 10px;
 }
-
+header nav ul {
+    text-align: right;
+}
 header p {
     color: lime;
     font-size: medium;
@@ -149,49 +114,62 @@ header a p {
     font-size: small;
 }
 
+/* -------------------------------------------------- EL MAIN PARA TODOS -------------------------------------------- */
+
+main {
+    float: left;
+    width: 92%;
+    margin-left: 3%;
+    background-color: beige;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+/* -------------------------------------------------- EL MAIN PARA index.html -------------------------------------------- */
+
+.relativas {
+    float: left;
+    width: 100%;
+    height: 600px;
+}
+
 .granImagen {
     float: left;
-    width: 1100px;
-    padding: 20px;
+    width: 98%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
 }
 
 .horaFeliz {
     float: left;
-    width: 200px;
+    width: 250px;
+    height: 70px;
     background-color: rgba(128, 0, 0, 0.5);
     border: 2px solid rgb(128, 0, 0);
     color: black;
     text-align: center;
     position: relative;
-    top: -150px;
-    left: 50px;
+    top: -40%;
+    left: 40%;
 }
 
-/*
-.parriba {
-    float: left;
-    position: relative;
-    top: -70px;
-    left: 0;
-}
-*/
-.trio article {
-    float: left;
-    width: 31%;
-    margin-left: 2%;
-}
+/* -------------------------------------------------- EL FOOTER -------------------------------------------- */
 
-.trio p {
-    margin-bottom: 10px;
-}
-
-.reverso {
+footer {
     float: left;
-    width: 300px;
-    margin-top: 10px;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2px;
+    padding-bottom: 2px;
     background-color: rgb(128, 0, 0);
     color: orange;
-    text-align: center;
+    font-size: small;
 }
 
 footer nav {
@@ -226,6 +204,39 @@ footer a:hover {
     border: 2px solid lime;
 }
 
+/* -------------------------------- SECCION trio para index.html  y Menu.html ---------------------------- */
+
+.trio {
+    float: left;
+    width: 96%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #e5e5cc;
+}
+
+.trio article {
+    float: left;
+    width: 31%;
+    margin-left: 2%;
+}
+
+.trio p {
+    margin-bottom: 10px;
+}
+
+.reverso {
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(128, 0, 0);
+    color: orange;
+    text-align: center;
+}
+
+/* -------------------------------- SECCION lista para Menu.html ---------------------------- */
+
 .lista {
     float: left;
     width: 100%;
@@ -243,3 +254,4 @@ footer a:hover {
     width: 98%;
     padding: 2%;
 }
+
