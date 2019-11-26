@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.controlador {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 1.875rem;
+}
+
+li {
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: red;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    background-color: blue;
+}
+
+nav {
+    float: left;
+    width: 70%;
+    padding: 1%;
+    background-color: brown;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+}
+
+section {
+    float: left;
+    width: 50%;
+    background-color: gray;
+}
+
+aside {
+    float: left;
+    width: 50%;
+    background-color: green;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.logopie {
+    float: left;
+    width: 30%;
+    background-color: indigo;
+}
+
+.textopie {
+    float: left;
+    width: 70%;
+    background-color: lavender;
+}
+
+@media(max-width: 700px) {
+    .logo {
+        width: 100%;
+        font-size: 2rem;
+        background-color: lavenderblush;
+        color: green;
+    }
+
+    nav {
+        width: 100%;
+        background-color: tomato;
+    }
+
+    section {
+        width: 100%;
+        background-color: yellow;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+
+    .logopie {
+        width: 100%;
+    }
+
+    .textopie {
+        width: 100%;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    li:hover {
+        background-color: yellow;
+        color: purple;
+    }
+
+}
