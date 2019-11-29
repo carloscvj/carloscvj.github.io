@@ -64,10 +64,11 @@ img {
 }
 
 .abuelos {
-    max-width: 1400px;
+    max-width: 1800px;
     width: 98%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
     border-radius: 0.5rem;
 }
 
@@ -87,15 +88,38 @@ img {
     align-items: flex-start;
     justify-content: center;
 }
+.fondoFoto2 {
+    height: 20rem;
+    padding-left: 2%;
+    background-image: url(../img/FondoFoto2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .centrado {
     text-align: center;
 }
-
 .imgArriba img {
     height: 16rem;
 }
+.contenidoDerecha {
+    padding-right: 1%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.boton {
+    width: 8rem;
+    text-align: center;    
+}
 
+span {
+    color: orange;
+}
 /*---------------- HEADER ------------------------*/
 
 header {
@@ -141,7 +165,6 @@ nav {
 /*---------------- SECTION trio ------------------------*/
 
 .trio {
-    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -154,13 +177,52 @@ nav {
     padding: 1%;
     border-radius: 0.5rem;
 }
+/*---------------- SECTION duo ------------------------*/
 
+.duo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.duo1 {
+    width: 69%;
+}
+.duo2 {
+    width: 30%;
+}
+.duo2 .fondoNegro {
+    height: 32rem;
+    padding-left: 5%;
+    padding-right: 1%;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pareja{
+    display: flex;
+    justify-content: space-between;
+}
+.izquierda{
+    width: 35%;
+}
+.izquierda img {
+    height: 16rem;
+}
+.derecha{
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /*---------------- FOOTER ------------------------*/
 
 footer {
     height: 3rem;
-    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
