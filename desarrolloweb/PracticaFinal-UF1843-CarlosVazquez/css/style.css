@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------- GLOBALES -----------------------*/
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: -2px 2px 0 orange,
+        2px 2px 0 orange,
+        2px -2px 0 orange,
+        -2px -2px 0 orange;
+}
+
+h2 {
+    font-size: 2.7rem;
+    color: orange;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    display: inline-block;
+    width: 100%;
+
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: all 0.80s ease-out;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+.abuelos {
+    max-width: 1400px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+}
+
+.fondoNegro {
+    background-color: black;
+    color: white;
+}
+
+.fondoFoto1 {
+    height: 25rem;
+    background-image: url(../img/FondoFoto1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.imgArriba img {
+    height: 16rem;
+}
+
+/*---------------- HEADER ------------------------*/
+
+header {
+    margin-top: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60%;
+    margin-left: 1%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.bienes {
+    font-style: oblique;
+    color: orange;
+}
+
+.raices {
+    font-size: 2rem;
+    font-weight: bold;
+    color: lime;
+}
+
+.fondoFoto1 h1 {
+    width: 60%;
+}
+
+/*--------- este nav vale para HEADER Y para FOOTER ----*/
+nav {
+    width: 40%;
+    margin-right: 1%;
+    display: flex;
+}
+
+/*------------------------------------------------------*/
+
+/*---------------- SECTION trio ------------------------*/
+
+.trio {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.trio article {
+    width: 32%;
+    min-width: 25rem;
+    margin-bottom: 1rem;
+    padding: 1%;
+    border-radius: 0.5rem;
+}
+
+
+/*---------------- FOOTER ------------------------*/
+
+footer {
+    height: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.copyRight {
+    margin-right: 1%;
+}

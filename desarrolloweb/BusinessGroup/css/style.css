@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------- GLOBALES -----------------------*/
+body {
+    font-family: 'Gupter', serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+h2 {
+    font-size: 3.7rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+}
+
+a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: all 0.80s ease-out;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+.abuelos {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 0.5rem;
+}
+
+/*---------------- HEADER ------------------------*/
+
+header {
+    height: 10rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 9rem;
+    height: 9rem;
+}
+
+nav {
+    width: 40%;
+    display: flex;
+}
+
+/*---------------- SECTION titulo ------------------------*/
+
+.titulo {
+    height: 30rem;
+    margin-top: 1rem;
+    background-color: #dddddd;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1 {
+    width: 90%;
+    text-shadow: -2px 2px 0 black,
+        2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black;
+}
+
+/*---------------- SECTION trio ------------------------*/
+
+.trio {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.trio article {
+    width: 32%;
+    min-width: 25rem;
+    margin-bottom: 1rem;
+    padding: 1%;
+    background-color: #dddddd;
+    border-radius: 0.5rem;
+}
+
+/*------------------ FOOTER --------------------------*/
+
+footer {
+    height: 10rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.partners {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+footer img {
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+@media(max-width: 700px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+
+    header img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    footer img {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+}
