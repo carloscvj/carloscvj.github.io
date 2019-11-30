@@ -88,6 +88,7 @@ img {
     align-items: flex-start;
     justify-content: center;
 }
+
 .fondoFoto2 {
     height: 20rem;
     padding-left: 2%;
@@ -103,23 +104,27 @@ img {
 .centrado {
     text-align: center;
 }
+
 .imgArriba img {
     height: 16rem;
 }
+
 .contenidoDerecha {
     padding-right: 1%;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: row-reverse;
 }
+
 .boton {
     width: 8rem;
-    text-align: center;    
+    text-align: center;
 }
 
 span {
     color: orange;
 }
+
 /*---------------- HEADER ------------------------*/
 
 header {
@@ -177,6 +182,7 @@ nav {
     padding: 1%;
     border-radius: 0.5rem;
 }
+
 /*---------------- SECTION duo ------------------------*/
 
 .duo {
@@ -188,9 +194,11 @@ nav {
 .duo1 {
     width: 69%;
 }
+
 .duo2 {
     width: 30%;
 }
+
 .duo2 .fondoNegro {
     height: 32rem;
     padding-left: 5%;
@@ -201,22 +209,27 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.pareja{
+
+.pareja {
     display: flex;
     justify-content: space-between;
 }
-.izquierda{
+
+.izquierda {
     width: 35%;
 }
+
 .izquierda img {
     height: 16rem;
 }
-.derecha{
+
+.derecha {
     width: 64%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 /*---------------- FOOTER ------------------------*/
 
 footer {
@@ -230,4 +243,13 @@ footer {
 
 .copyRight {
     margin-right: 1%;
+}
+
+/*---------------- SECTION lista ------------------------*/
+
+.lista {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
