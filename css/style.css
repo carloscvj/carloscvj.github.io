@@ -1,0 +1,55 @@
+
+/*------------------------------------------------GLOBALES----------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: inline-block;
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: all 0.80s ease-out;
+
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logoImagen{
+    width:19%;
+    text-align: right;
+}
+.logoTexto{
+    width: 80%;
+}
