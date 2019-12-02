@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="icon" href="img/Logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BienesRaices</title>
+</head>
+
+<body>
+    <header class="abuelos fondoNegro">
+        <a href="index.html">
+            <div class="logo">
+                <div class="bienes">Bienes</div>
+                <div class="raices">RAICES</div>
+            </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Anuncios.html">Anuncios</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="abuelos centrado">Contacto</h2>
+    <div class="fondoFoto1 abuelos"></div>
+
+    <h2 class="abuelos centrado">Llena el formulario de Contacto</h2>
+    <section class="abuelos formulario">
+        <form action="">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">NOMBRE:</label><input type="text" id="nombre" name="nombre" placeholder="Tu Nombre">
+                <label for="email">E-MAIL:</label><input type="email" id="email" name="email"
+                    placeholder="Tu Correo Electrónico">
+                <label for="telefono">TELÉFONO:</label><input type="tel" id="telefono" name="telefono"
+                    placeholder="Tu Teléfono">
+                <label for="mensaje">MENSAJE:</label><textarea name="mensaje" id="mensaje"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Información sobre propiedad</legend>
+                <label for="ventaCompra">VENDE O COMPRA</label>
+                <select name="ventaCompra" id="ventaCompra">
+                    <option value="selecciona">--Selecciona</option>
+                    <option value="vende">VENDE</option>
+                    <option value="compra">COMPRA</option>
+                </select>
+                <label for="cantidad">CANTIDAD</label><input type="number" id="cantidad" name="cantidad">
+            </fieldset>
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser contactado</p>
+                <div class="grupo">
+                    <input class="esteNo" type="radio" name="serContactado" value="telefono"><label for="telefono">TELÉFONO</label>
+                    <input class="esteNo" type="radio" name="serContactado" value="email"><label for="email">E-MAIL</label>
+                </div>
+                <p>Si eligió teléfono elija la fecha y la hora</p>
+                <label for="fecha">FECHA:</label> <input type="date" id="fecha" name="fecha">
+                <label for="hora">HORA:</label> <input type="datetime" id="hora" name="hora">
+            </fieldset>
+            <input class="boton" type="submit">
+        </form>
+    </section>
+
+
+    <footer class="abuelos fondoNegro">
+        <nav>
+            <ul>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Anuncios.html">Anuncios</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="copyRight">Todos los Derechos Reservados 2019 <i class="fas fa-copyright"></i></div>
+    </footer>
+</body>
+
+</html>

@@ -35,7 +35,7 @@ ul {
 
 li {
     display: inline-block;
-    width: 33%;
+    width: 25%;
 }
 
 a {
@@ -131,6 +131,7 @@ header {
     margin-top: 1rem;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -163,6 +164,8 @@ nav {
     width: 40%;
     margin-right: 1%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*------------------------------------------------------*/
@@ -204,7 +207,7 @@ nav {
     padding-left: 5%;
     padding-right: 1%;
     border-radius: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -212,19 +215,21 @@ nav {
 
 .pareja {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .izquierda {
-    width: 35%;
+    width: 60%;
 }
 
 .izquierda img {
+    width: 32rem;
     height: 16rem;
 }
 
 .derecha {
-    width: 64%;
+    width: 39%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -237,6 +242,7 @@ footer {
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -248,8 +254,209 @@ footer {
 /*---------------- SECTION lista ------------------------*/
 
 .lista {
-    width: 60%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*---------------- SECTION formulario ------------------------*/
+input {
+    width: 70%;
+}
+
+textarea {
+    width: 70%;
+    height: 6rem;
+}
+
+select {
+    width: 70%;
+}
+
+.formulario {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    padding: 2%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    text-align: center;
+}
+
+.esteNo {
+    width: 5%;
+}
+
+
+/*----------------------------------------------------------------*/
+@media(max-width:1100px) {
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    .duo2 .fondoNegro {
+        font-size: 0.7rem;
+    }
+
+    .lista {
+        width: 85%;
+    }
+
+}
+
+@media(max-width:800px) {
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    footer {
+        height: 8rem;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .duo2 .fondoNegro {
+        font-size: 1.5rem;
+    }
+
+    .duo1 {
+        width: 100%;
+    }
+
+    .duo2 {
+        width: 100%;
+    }
+
+    .izquierda {
+        width: 55%;
+    }
+
+    .derecha {
+        width: 44%;
+    }
+    .izquierda img {
+        width: 24rem;
+        height: 12rem;
+    }
+
+}
+
+@media(max-width:700px) {
+    .izquierda {
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .derecha {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .izquierda img {
+        width: 24rem;
+        height: 12rem;
+    }
+    
+    .lista {
+        width: 98%;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    textarea {
+        width: 80%;
+        height: 6rem;
+    }
+
+    select {
+        width: 80%;
+    }
+
+    .formulario {
+        width: 80%;
+    }
+}
+
+@media(max-width:350px) {
+    body {
+        font-size: 0.6rem;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 1rem;
+        text-shadow: none;
+    }
+
+    .fondoFoto1 {
+        height: 10rem;
+    }
+
+    .fondoFoto2 {
+        height: 10rem;
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    footer {
+        height: 8rem;
+        font-size: 0.7rem;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+        height: 6rem;
+    }
+
+    select {
+        width: 90%;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+
 }
