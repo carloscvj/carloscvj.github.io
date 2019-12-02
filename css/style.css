@@ -1,55 +1,49 @@
-
 /*------------------------------------------------GLOBALES----------------------------------------------*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
+img {
+    max-width: 100%;
+    max-height: 100%;
     width: 100%;
+    height: 100%;
+    border-radius: 35%;
+}
+
+.logoTexto {
+    height: 0;
+    position: relative;
+    top: -45%;
+    left: 0;
+}
+
+.globoYantando {
+    width: 2rem;
+    height: 2rem;
+    color: darkgreen;
+    font-size: 0.01rem;
+    border-radius: 35%;
+    box-shadow: 0 0 1px 1px black;
     display: flex;
     flex-direction: column;
-}
-
-li {
-    display: inline-block;
-    width: 100%;
-}
-
-a {
-    display: inline-block;
-    width: 100%;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    transition: all 0.80s ease-out;
-
-}
-
-a:hover {
-    background-color: black;
-    color: white;
-}
-
-img{
-    max-width: 100%;
-    width: 5rem;
-    height: 3rem;
-    border-radius: 2rem;
-}
-
-.logo{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
-.logoImagen{
-    width:19%;
-    text-align: right;
-}
-.logoTexto{
-    width: 80%;
+
+.globoYantando:hover {
+    width: 16rem;
+    height: 16rem;
+    font-size: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.7),
+                1rem 1rem 1rem 0.5rem rgba(0,0,0,0.3);
+    top: 30px;
+    left: 30px;
 }
