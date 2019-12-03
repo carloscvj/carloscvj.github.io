@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------- GLOBALES -----------------------*/
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+ul {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+li {
+    display: inline-block;
+    widows: 30%;
+}
+a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: white;
+    color: blue;
+    border-radius: 0.5rem;
+}
+img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.abuelos {
+    max-width: 1800px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.centrado {
+    text-align: center;
+}
+
+/*--------------------------HEADER-------------------------------*/
+
+.fondoFoto1 {
+    height: 54rem;
+    background-image: url(../img/FondoFoto1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arriba {
+    flex-direction: column;
+}
+
+.abajo {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rrss {
+    width: 30%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.rrss div {
+    width: 20%;
+    text-align: center;
+}
+
+.entre {
+    width: 30%;
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abajo a {
+    width: 12%;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logoImagen {
+    width: 30%;
+}
+
+.logoImagen img {
+    width: 16rem;
+}
+
+.logTexto {
+    width: 70%;
+}
+
+.abajo nav {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.abajo nav div {
+    width: 25%;
+}
+.abajo nav div a {
+    width: 100%;
+}
