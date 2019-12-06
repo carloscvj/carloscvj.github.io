@@ -14,16 +14,6 @@ h1 {
     font-size: 6rem;
 }
 
-ul {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-li {
-    display: inline-block;
-    widows: 30%;
-}
 a {
     display: inline-block;
     width: 100%;
