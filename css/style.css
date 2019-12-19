@@ -13,7 +13,8 @@ a {
 
 img {
     max-width: 100%;
-    /*border-bottom-left-radius: 1rem;*/
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .abuelos {
@@ -63,7 +64,9 @@ img {
     height: 6rem;
     font-size: 1.8rem;
     border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 2rem;
     box-shadow: 1rem 1rem 2rem black;
     top: -2rem;
     left: -3rem;
