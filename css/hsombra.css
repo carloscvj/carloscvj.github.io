@@ -1,0 +1,61 @@
+
+:root{
+    --h-color-sombra: gray;
+    --h-color-texto: blue;
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--h-color-texto);
+    text-shadow: -7px 7px 7px var(--h-color-sombra),
+                 5px 5px 5px var(--h-color-sombra),
+                 -1px 1px 0px var(--h-color-sombra),
+                 1px -1px 0px var(--h-color-sombra);
+
+        
+}
+h2 {
+    font-size: 5rem;
+    color: var(--h-color-texto);
+    text-shadow: -6px 6px 6px var(--h-color-sombra),
+                 4px 4px 4px var(--h-color-sombra),
+                 -1px 1px 0px var(--h-color-sombra),
+                 1px -1px 0px var(--h-color-sombra);
+        
+}
+h3 {
+    font-size: 4rem;
+    color: var(--h-color-texto);
+    text-shadow: -5px 5px 5px var(--h-color-sombra),
+                 3px 3px 3px var(--h-color-sombra),
+                 -1px 1px 0px var(--h-color-sombra),
+                 1px -1px 0px var(--h-color-sombra);
+        
+}
+h4 {
+    font-size: 3rem;
+    color: var(--h-color-texto);
+    text-shadow: -4px 4px 4px var(--h-color-sombra),
+                 2px 2px 2px var(--h-color-sombra),
+                 -1px 1px 0px var(--h-color-sombra),
+                 1px -1px 0px var(--h-color-sombra);
+        
+}
+h5 {
+    font-size: 2rem;
+    color: var(--h-color-texto);
+    text-shadow: -3px 3px 3px var(--h-color-sombra),
+                 1px 1px 1px var(--h-color-sombra),
+                 -1px 1px 0px var(--h-color-sombra),
+                 1px -1px 0px var(--h-color-sombra);
+        
+}
+h6 {
+    font-size: 1rem;
+    color: var(--h-color-texto);
+    text-shadow: -2px 2px 2px var(--h-color-sombra),
+                 0px 0px 0px var(--h-color-sombra),
+                 -1px 1px 0px var(--h-color-sombra),
+                 1px -1px 0px var(--h-color-sombra);
+        
+}
