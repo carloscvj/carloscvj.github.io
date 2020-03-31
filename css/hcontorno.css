@@ -1,0 +1,49 @@
+
+:root{
+    --h-color-contorno: gray;
+    --h-color-texto: white;
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--h-color-texto);
+    text-shadow: -1px 1px 0px var(--h-color-contorno),
+                 1px -1px 0px var(--h-color-contorno);
+
+        
+}
+h2 {
+    font-size: 5rem;
+    color: var(--h-color-texto);
+    text-shadow: -1px 1px 0px var(--h-color-contorno),
+                 1px -1px 0px var(--h-color-contorno);
+        
+}
+h3 {
+    font-size: 4rem;
+    color: var(--h-color-texto);
+    text-shadow: -1px 1px 0px var(--h-color-contorno),
+                 1px -1px 0px var(--h-color-contorno);
+        
+}
+h4 {
+    font-size: 3rem;
+    color: var(--h-color-texto);
+    text-shadow: -1px 1px 0px var(--h-color-contorno),
+                 1px -1px 0px var(--h-color-contorno);
+        
+}
+h5 {
+    font-size: 2rem;
+    color: var(--h-color-texto);
+    text-shadow: -1px 1px 0px var(--h-color-contorno),
+                 1px -1px 0px var(--h-color-contorno);
+        
+}
+h6 {
+    font-size: 1rem;
+    color: var(--h-color-texto);
+    text-shadow: -1px 1px 0px var(--h-color-contorno),
+                 1px -1px 0px var(--h-color-contorno);
+        
+}
